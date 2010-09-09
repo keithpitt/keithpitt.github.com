@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>keithpitt.com</title>
+  <title>Keith Pitt</title>
   <link href="http://keithpitt.com/atom.xml" rel="self"/>
   <link href="http://keithpitt.com/"/>
-  <updated>2010-09-09T20:18:01+09:30</updated>
+  <updated>2010-09-09T20:21:34+09:30</updated>
   <id>http://keithpitt.com/</id>
   <author>
     <name>Keith Pitt</name>
