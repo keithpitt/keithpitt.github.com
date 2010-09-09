@@ -2,35 +2,85 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
+    <link href="/css/reset.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/css/layout.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
-    <h1>Keith Pitt</h1>
+  <!--
+    <div style="opacity: 0.5; position: absolute; text-align: center; width: 100%; z-index: 100;" >
+      <img src="/images/reference.png"  />
+    </div>
+  -->
 
-    {{ content }}
+  <div class="container">
 
-    {% if page.comments %}
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        var disqus_identifier = "{{ page.title }}";
-        (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://keithpitt.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=keithpitt">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-    {% endif %}
+    <div class="header">
+      <a href="/" class="avatar"><img src="/images/avatar.png" title="It's a me! Mario!" /></a>
+      <h1><a href="/" title="Is a Rockstar">Keith Pitt</a></h1>
+      <h2>Hi! I'm Keith. I'm an Adelaide based Web Developer specialising in Ruby on Rails. Outside of code, I'm an avid gamer and a sleight of hand artist.</h2>
+    </div>
 
-    <script type="text/javascript">
-      var disqus_shortname = 'keithpitt';
-      (function () {
-       var s = document.createElement('script'); s.async = true;
-       s.src = 'http://disqus.com/forums/keithpitt/count.js';
-       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-       }());
-     </script>
+    <div class="content">
+
+      <div class="body">
+
+        {{ content }}
+
+        {% if page.comments %}
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+            var disqus_identifier = "{{ page.title }}";
+            (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://keithpitt.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=keithpitt">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        {% endif %}
+
+      </div>
+
+      <div class="contact">
+        <h3>Contact Me</h3>
+        <ul>
+          <li><strong>Email</strong><a href="mailto:me@keithpitt.com">me@keithpitt.com</a></li>
+          <li><strong>Phone</strong>+61 432 713 987</li>
+          <li><strong>Twitter</strong><a href="http://www.twitter.com/keithpitt" target="_blank">@keithpitt</a></li>
+          <li><strong>LinkedIn</strong><a href="http://www.linkedin.com/in/keithpitt" target="_blank"><img src="/images/linkedin.png" /></a></li>
+          <li><strong>Facebook</strong><a href="http://www.facebook.com/keith.pitt" target="_blank" title="Eeeww, Facebook.">facebook.com/keith.pitt</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="push"></div>
+
+   </div>
+
+   <div class="footer">
+     <div class="footer-inner">
+       <ul class="menu">
+         <li><a href="/atom.xml" target="_blank"><img src="/images/subscribe-baloon.png" />Subscribe</a></li>
+         <li>Powered by <a href="#">Jekyll</a></li>
+       </ul>
+       <div class="hosting">
+         <a href="http://heroku.com" target="_blank">Hosted by <img src="/images/heroku.png" title="Heroku" /></a>
+       </div>
+     </div>
+   </div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'keithpitt';
+    (function () {
+     var s = document.createElement('script'); s.async = true;
+     s.src = 'http://disqus.com/forums/keithpitt/count.js';
+     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+     }());
+   </script>
 
   </body>
 </html>

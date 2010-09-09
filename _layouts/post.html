@@ -4,10 +4,7 @@ comments: true
 ---
 
 <h2>{{ page.title }}</h2>
-
-<div class="postdate">
-  {{ page.date | date: "%A, %B %d, %Y" }}
-</div>
+<h4>{{ page.date | date: "%A, %B %d, %Y" }}</h4>
 
 <div class="post">
   {{ content }}

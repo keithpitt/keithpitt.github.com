@@ -1,0 +1,158 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url(../images/background.png);
+  -webkit-font-smoothing: antialiased;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: 200;
+    letter-spacing: 0.3px;
+  }
+}
+
+.container {
+  margin: 0 auto -53px;
+  width: 960px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+.header {
+  height: 203px;
+  background: url(../images/background_top.png) no-repeat top center;
+  padding: 55px 52px 0;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: 29px;
+  left: 49px;
+}
+
+.header h1 {
+  margin-left: 110px;
+}
+
+.header h1 a {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 2px 2px;
+  font-weight: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.header h2 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 2px 2px;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 50px;
+  line-height: 22px;
+}
+
+.content {
+  position: relative;
+  font-size: 12px;
+  font-family: "Verdana";
+  color: white;
+}
+
+.contact {
+  position: absolute;
+  top: 0;
+  right: 23px;
+}
+
+.contact li {
+  margin-bottom: 14px;
+}
+
+.contact strong {
+  font-weight: normal;
+  color: #d7d7d7;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 75px;
+  font-family: 'Droid Serif', 'Georgia', serif;
+}
+
+.body {
+  padding: 0 0 0 53px;
+  width: 595px;
+}
+
+.content a {
+  color: #3274cf;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content p {
+  font-weight: lighter;
+  word-spacing: 1px;
+  margin-bottom: 15px;
+  line-height: 23px;
+  text-shadow: #000000 2px 2px;
+}
+
+.content h2,
+.content h2 a {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 2px 2px;
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 9px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.content h3 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 2px 2px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.content h4 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: #d7d7d7;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+
+.footer, .push {
+  height: 53px;
+}
+
+.footer {
+  background: url(../images/footer.png) repeat-x;
+  color: white;
+}
+
+.footer-inner {
+  margin: 0 auto;
+  width: 857px;
+}
+
