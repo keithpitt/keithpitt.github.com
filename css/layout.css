@@ -88,7 +88,7 @@ body {
 }
 
 .body {
-  padding: 0 0 0 53px;
+  padding: 0 0 50px 53px;
   width: 595px;
 }
 
@@ -209,5 +209,16 @@ body {
   top: 0;
   right: 0;
   z-index: 20;
+}
+
+.dsq-item-trackback {
+  display: none;
+  opacity: 0;
+}
+
+.post {
+  background: url(../images/dividier.png) no-repeat center bottom;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
