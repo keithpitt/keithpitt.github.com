@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>keithpitt.com</title>
+  <link href="http://keithpitt.com/atom.xml" rel="self"/>
+  <link href="http://keithpitt.com/"/>
+  <updated>2010-09-09T20:18:01+09:30</updated>
+  <id>http://keithpitt.com/</id>
+  <author>
+    <name>Keith Pitt</name>
+    <email>me@keithpitt.com</email>
+  </author>
+
+  
+  <entry>
+    <title>First Post</title>
+    <link href="http://keithpitt.com/2009/08/05/first-post.html"/>
+    <updated>2009-08-05T00:00:00+09:30</updated>
+    <id>http://keithpitt.com/2009/08/05/first-post</id>
+    <content type="html">&lt;p&gt;This will be the best blog ever.&lt;/p&gt;</content>
+  </entry>
+  
+
+</feed>
