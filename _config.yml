@@ -1,1 +1,4 @@
 server_port: 4000
+destination: _site
+permalink: /:year/:month/:day/:title
+pygments: true
