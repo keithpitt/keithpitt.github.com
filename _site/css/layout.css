@@ -25,7 +25,7 @@ body {
 
 .header {
   height: 203px;
-  background: url(../images/background_top.png) no-repeat top center;
+  background: url(../images/header.jpg) no-repeat top center;
   padding: 55px 52px 0;
   position: relative;
 }
