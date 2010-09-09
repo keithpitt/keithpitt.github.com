@@ -43,7 +43,7 @@ body {
 .header h1 a {
   font-family: 'Droid Serif', 'Georgia', serif;
   color: white;
-  text-shadow: #000000 2px 2px;
+  text-shadow: #000000 1px 1px;
   font-weight: normal;
   font-size: 40px;
   text-decoration: none;
@@ -52,7 +52,7 @@ body {
 .header h2 {
   font-family: 'Droid Serif', 'Georgia', serif;
   color: white;
-  text-shadow: #000000 2px 2px;
+  text-shadow: #000000 1px 1px;
   font-weight: normal;
   font-size: 17px;
   margin-top: 50px;
@@ -106,14 +106,14 @@ body {
   word-spacing: 1px;
   margin-bottom: 15px;
   line-height: 23px;
-  text-shadow: #000000 2px 2px;
+  text-shadow: #000000 1px 1px;
 }
 
 .content h2,
 .content h2 a {
   font-family: 'Droid Serif', 'Georgia', serif;
   color: white;
-  text-shadow: #000000 2px 2px;
+  text-shadow: #000000 1px 1px;
   font-weight: normal;
   font-size: 22px;
   margin-bottom: 9px;
@@ -124,7 +124,7 @@ body {
 .content h3 {
   font-family: 'Droid Serif', 'Georgia', serif;
   color: white;
-  text-shadow: #000000 2px 2px;
+  text-shadow: #000000 1px 1px;
   font-weight: normal;
   font-size: 16px;
   margin-bottom: 16px;
@@ -149,10 +149,65 @@ body {
 .footer {
   background: url(../images/footer.png) repeat-x;
   color: white;
+  font-family: 'Droid Serif', 'Georgia', serif;
+  font-size: 13px;
+  text-shadow: #000000 1px 1px;
+}
+
+.footer ul {
+  height: 20px;
+}
+
+.footer .feed a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.footer .feed img {
+  float: left;
+  margin-top: -2px;
+}
+
+.footer .powered,
+.footer .powered a,
+.footer .hosted a {
+  color: #626262;
+  text-decoration: none;
+}
+
+.footer li {
+  float: left;
+  margin-right: 30px;
+  padding-top: 22px;
 }
 
 .footer-inner {
   margin: 0 auto;
   width: 857px;
+  position: relative;
+}
+
+.footer .hosted {
+  position: absolute;
+  right: 0;
+  top: 17px;
+  padding-right: 83px;
+  padding-top: 5px;
+  color: #626262;
+}
+
+.footer .hosted a {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.github {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
 }
 
