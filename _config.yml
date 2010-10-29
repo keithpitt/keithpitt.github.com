@@ -1,5 +1,0 @@
-server_port: 4000
-destination: _site
-permalink: /:year/:month/:day/:title.html
-pygments: true
-exclude: application.rb, Rakefile, config.ru, Gemfile, Gemfile.lock
