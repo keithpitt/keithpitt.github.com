@@ -1,0 +1,227 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url(../images/background.png);
+  -webkit-font-smoothing: antialiased;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: 200;
+    letter-spacing: 0.3px;
+  }
+}
+
+a {
+  color: #3274cf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 23px;
+}
+
+h2 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 9px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+h2 a {
+  color: #3274cf;
+}
+
+h3 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+h4 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: #d7d7d7;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+  font-size: 12px;
+  font-family: "Verdana";
+  color: white;
+  overflow: hidden;
+}
+
+#avatar {
+  position: absolute;
+  top: 29px;
+  left: 49px;
+}
+
+header {
+  height: 203px;
+  background: url(../images/header.jpg) no-repeat top center;
+  padding: 55px 52px 0;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  display: block;
+}
+
+header h1 {
+  margin-left: 110px;
+}
+
+header h1 a {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+header h2 {
+  font-family: 'Droid Serif', 'Georgia', serif;
+  color: white;
+  text-shadow: #000000 1px 1px;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 50px;
+  line-height: 22px;
+}
+
+#contact {
+  float: right;
+  padding-right: 50px;
+}
+
+#contact li {
+  margin-bottom: 14px;
+}
+
+#contact strong {
+  font-weight: normal;
+  color: #d7d7d7;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 75px;
+  font-family: 'Droid Serif', 'Georgia', serif;
+}
+
+#content {
+  float: left;
+  padding: 0 0 50px 53px;
+  width: 595px;
+}
+
+#push, footer {
+  height: 53px;
+}
+
+footer {
+  background: url(../images/footer.png) repeat-x;
+  color: white;
+  font-family: 'Droid Serif', 'Georgia', serif;
+  font-size: 13px;
+  text-shadow: #000000 1px 1px;
+  display: block;
+}
+
+footer ul {
+  height: 20px;
+}
+
+footer .feed a {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+footer .feed img {
+  float: left;
+  margin-top: -2px;
+}
+
+footer li {
+  float: left;
+  margin-right: 30px;
+  padding-top: 22px;
+}
+
+#footer-inner {
+  margin: 0 auto;
+  width: 857px;
+  position: relative;
+}
+
+#github {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+#github span {
+  display: none;
+}
+
+.dsq-item-trackback {
+  display: none;
+  opacity: 0;
+}
+
+.dsq-brlink {
+  opacity: 0;
+}
+
+article {
+  background: url(../images/divider.png) no-repeat center bottom;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: block;
+
+  font-weight: lighter;
+  word-spacing: 1px;
+  text-shadow: #000000 1px 1px;
+}
+
+article.text li {
+  list-style: disc;
+  line-height: 23px;
+}
+
+article.text ol,
+article.text ul {
+  margin-bottom: 15px;
+  padding-left: 2.5em;
+}
